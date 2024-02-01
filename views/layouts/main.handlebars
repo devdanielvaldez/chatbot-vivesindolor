@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solicitudes</title>
+</head>
+<body>
+  <h1>Solicitudes</h1>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Detalles</th>
+      <!-- Agrega más columnas según tus datos -->
+    </tr>
+    {{#each solicitudes}}
+      <tr>
+        <td>{{this.id}}</td>
+        <td>{{this.nombre}}</td>
+        <td>{{this.detalles}}</td>
+        <!-- Agrega más celdas según tus datos -->
+      </tr>
+    {{/each}}
+  </table>
+</body>
+</html>

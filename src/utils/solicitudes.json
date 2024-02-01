@@ -1,0 +1,21 @@
+{
+  "apellido": "Daniel",
+  "tipoIdentificacion": "Cédula",
+  "identificacion": "40211642604",
+  "fechaNacimiento": "18/01/2001",
+  "sexo": "Masculino",
+  "estadoCivil": "Casado/a",
+  "direccion": "SFM",
+  "telefonoMovil": "8296967695",
+  "nombreConyuge": "Noelia",
+  "telefonoMovilConyuge": "8095023344",
+  "lugarTrabajo": "BHD",
+  "telefonoTrabajo": "8094445566",
+  "cargoTrabajo": "Dev",
+  "tiempoTrabajo": "8 meses",
+  "ingresoTrabajo": "97000",
+  "otrosIngresos": "150000",
+  "montoPrestamo": "10000",
+  "plazoPrestamo": "12",
+  "whatsapp": "18296967695@c.us"
+}
