@@ -13,9 +13,7 @@ export const start = async () => {
     const client = new Client({
         puppeteer: { headless: false, args: ['--no-sandbox'] }, // Make headless true or remove to run browser in background
         session: sessionCfg,
-        authStrategy: new LocalAuth({
-          clientId: '8295867677'
-        })
+        authStrategy: new LocalAuth()
       });
 
     client.on('qr', (qr: any) => {
