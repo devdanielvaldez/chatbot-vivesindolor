@@ -11,9 +11,9 @@ if (fs.existsSync(SESSION_FILE_PATH)) {
 
 export const start = async () => {    
     const client = new Client({
-        puppeteer: { headless: false, args: [] }, // Make headless true or remove to run browser in background
+        puppeteer: { headless: false, args: ['--no-sandbox'] }, // Make headless true or remove to run browser in background
         session: sessionCfg,
-        authStrategy: new LocalAuth(),
+        authStrategy: new LocalAuth()
       });
 
     client.on('qr', (qr: any) => {
